@@ -13,8 +13,8 @@ untrusted = "0.3.1"
 time = "0.1.35"
 base64 = "~0.2.0"
 log = { version = "0.3.6", optional = true }
-ring = { git = "https://github.com/paukstis/ring.git", features = ["rsa_signing"] }
-webpki = { git = "https://github.com/paukstis/webpki.git" }
+ring = { git = "https://github.com/paukstis/ring.git", branch = "0.5.3", features = ["rsa_signing"] }
+webpki = { git = "https://github.com/paukstis/webpki.git", branch = "0.5.1" }
 
 [features]
 default = ["logging"]
